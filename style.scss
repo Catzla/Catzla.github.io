@@ -1,0 +1,22 @@
+$pgTCol: rgb(236, 154, 0);
+$bkCol: navy;
+
+* {
+    margin: 0%;
+}
+
+
+
+#pgTitle {
+    background-color: $pgTCol;
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.menu {
+    display: flexbox;
+    justify-content: space-between;
+    background-color: $bkCol;
+}
