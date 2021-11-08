@@ -1,17 +1,42 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.scss">
+
     <title>Molly Tremaine's Website Test</title>
+    <style>
+        * {
+            margin: 0%;
+        }
+
+
+
+        #pgTitle {
+            color: navy;
+            display: flexbox;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+
+        .menu {
+            display: inline;
+
+            background-color: navy;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(234, 154, 0);
+            list-style: none;
+        }
+    </style>
+
 </head>
 
-
 <body>
+
     <h1 id="pgTitle">Molly Tremaine</h1>
     <br>
     <br>
@@ -24,6 +49,33 @@
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
+    <br>
+
+    <form>
+        <label for="firstname">First name:</label>
+        <input type="text" id="firstname" name="firstname" />
+        <label for="lastname">Last name:</label>
+        <input type="text" id="lastname" name="lastname" />
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" />
+        <label for="address2">Address 2:</label>
+        <input type="text" id="address2" name="address2" />
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" />
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" />
+        <label for="zip">Zip:</label>
+        <input type="text" id="zip" name="zip" />
+
+
+
+        <div id="buttons">
+            <button type="reset" id="cancel">Cancel</button>
+            <button type="reset" id="back">Back</button>
+            <button type="submit" id="next">Next</button>
+        </div>
+    </form>
+
 
 </body>
 
